@@ -1,25 +1,24 @@
 <script>
-	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
-	<Header />
-
 	<main>
 		<slot />
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<Footer />
 </div>
 
 <style>
 	.app {
+		padding:5px;
+		background-color: var(--color-background);		
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
+		max-height: 100vh;
+		min-height: 99vh;
 	}
 
 	main {
@@ -28,7 +27,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
+		height: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
