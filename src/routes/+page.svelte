@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths'
 </script>
 
 <svelte:head>
@@ -7,7 +8,7 @@
 </svelte:head>
 
 <div class="images">
-	<a class="imgwrap" href="/frontend">
+	<a class="imgwrap" href="{base}/frontend">
 		<img src="https://images.unsplash.com/photo-1535957998253-26ae1ef29506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
 		<div class="greyscaled"></div>
 		<div class="content">
@@ -21,7 +22,7 @@
 			</ul>
 		</div>
 	</a>
-	<a class="imgwrap" href="/backend">
+	<a class="imgwrap" href="{base}/backend">
 		<img src="https://img.freepik.com/premium-photo/computer-servers-with-purple-lights-server-farm-created-using-generative-ai-technology_772924-1989.jpg" alt="">
 		<div class="greyscaled"></div>
 		<div class="content">
@@ -32,7 +33,7 @@
 			</ul>
 		</div>
 	</a>
-	<a class="imgwrap" href="/exp">
+	<a class="imgwrap" href="{base}/exp">
 		<img src="https://images.unsplash.com/photo-1689579230089-5f3715ebe0f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt="">
 		<div class="greyscaled"></div>
 		<div class="content">
